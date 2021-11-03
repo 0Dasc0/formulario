@@ -1,0 +1,47 @@
+Css
+
+body {
+  margin:0;
+  padding: 0;
+  background: #1C2321;
+}
+
+*{
+
+  background-color: #151515;
+}
+
+.nav{
+  background-color: #000000;
+  color: #ffffff;
+
+
+}
+.navp{
+    display: inline;
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    margin-top: 0px;
+    background-color: #000000;
+
+}
+.text {
+  font-family: sans-serif;
+  color:#FA58D0;
+  padding-bottom: 7px;
+}
+
+.selec {
+  color: #6E6E6E;
+
+}
+
+.form-control {
+  color: #ffffff;
+}
+
+.Cent {
+  margin-left: 1125px;
+  margin-top: 200px;
+}
