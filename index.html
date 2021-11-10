@@ -5,14 +5,15 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="ASSES/index.css">
     <title>Formulario</title>
+      <link rel="shortcut icon" href="img/SENALO.png">
   </head>
   <body background = "img/SENA.jpg" >
 
     <section class="form-register">
 
     <h4>Formulario registro SENA</h4> <img class="img" src="img/SENALO.png" >
-    <input class="controlsn" type="text" name="Nombres" value="" placeholder="Ingrese sus nombres.">
-    <input class="controls" type="text" name="Apellidos" value="" placeholder="Ingrese sus Apellidos.">
+    <input class="controlsn" type="text" name="Nombres" value="" placeholder="Ingrese sus nombres." id="nombres_">
+    <input class="controls" type="text" name="Apellidos" value="" placeholder="Ingrese sus Apellidos." id="apellidos_">
     <select class="sele">
    <option selected></option>
    <option value="1">C.c</option>
@@ -23,15 +24,15 @@
    <option value="6">Contraseña</option>
    <option value="7">Otro...</option>
  </select>
-    <input class="controls1" type="text" name="Documento" value="" placeholder="Ingrese su numero de documento.">
-    <input class="controls" type="email" name="Correo" value="" placeholder="Ingrese su correo.">
-    <input class="controlso" type="text" name="Observaciones" value="" placeholder="Ingrese sus observaciones.">
-      <input class="check" type="checkbox" value="" id="flexCheckIndeterminate">
+    <input class="controls1" type="text" name="Documento" value="" placeholder="Ingrese su número de documento." id="documento_">
+    <input class="controls" type="email" name="Correo" value="" placeholder="Ingrese su correo." id="correo_">
+    <input class="controlso" type="text" name="Observaciones" value="" placeholder="Ingrese sus observaciones." id="observaciones_">
+      <input class="check" type="checkbox" value="" id="flexCheckIndeterminate" id="check_">
     <p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
 
 
 
-    <input class="botons" type="submit" name="Enviar" value="Enviar">
+    <input class="botons" type="submit" name="Enviar" value="Enviar" onclick="capturar()">
 
 
   </section>
@@ -44,6 +45,6 @@
     <p class="f1">© 2021 Copyright</p><br>
   </div>
 
-
+  <script type="text/javascript" href="ASSES/index.js"> </script>
   </body>
 </html>

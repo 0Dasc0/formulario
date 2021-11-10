@@ -20,7 +20,7 @@ body {
 }
 
 .form-register h4 {
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 25px;
   display: inline;
 }
@@ -147,6 +147,7 @@ body {
   padding-bottom: 5px;
   text-align: center;
   padding-top: 5px;
+  margin-bottom: 0;
 }
 
 .fooster .f1 {
